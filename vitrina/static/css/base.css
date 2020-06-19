@@ -1,0 +1,31 @@
+* {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+h1 {
+  color: red;
+}
+
+.grid-container  {
+  display: grid;
+  border: solid 2px #000;
+  grid-template-rows: 50px 1fr 50px;
+  height: 100vh;
+}
+
+.grid-item {
+        box-sizing: border-box;
+        border: solid 2px #000;
+        text-align: center;
+        font-size: 1.1em;
+        color: black;
+
+      }
+header {
+  text-align: justify;
+}
+
+header nav {
+   display: inline-block;
+}
